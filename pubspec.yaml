@@ -1,0 +1,31 @@
+name: esim_universal_installer
+description: >-
+  Install eSIMs in Flutter via Apple and Android Universal Link provisioning
+  URLs, with compatibility checks powered by esim_compatibility.
+version: 1.0.0
+homepage: https://github.com/ejazrahim420
+repository: https://github.com/ejazrahim420/esim_universal_installer
+issue_tracker: https://github.com/ejazrahim420/esim_universal_installer/issues
+topics:
+  - esim
+  - mobile
+  - android
+  - ios
+  - provisioning
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  esim_compatibility: ^1.0.3
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
